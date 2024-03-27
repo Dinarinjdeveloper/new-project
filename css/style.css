@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:#0B0B22;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+
+}
+a{
+    text-decoration: none;
+}
+#header{
+    padding: 20px 0;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   }
+   .header h1{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+   }
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.header-nav a{
+
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.header button{
+
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: #FFFFFF1A;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+#hero{
+    padding-top: 90px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.hero h5{
+    color: #16FCD2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    
+
+}
+.hero h1{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+
+}
+
+.hero p{
+
+    color:#FFFFFF99;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.hero-btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.hero-btn button{
+    padding: 15px 55px;
+    border-radius: 3px;
+    background-color ;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn1{
+    background-color: #6016FC;
+}
+
+.btn2{
+background-color: #2c416057;
+}
+.block{
+    padding: 40px 0 0 40px;
+    width: 328px;
+    height: 276px;
+    border-radius: 5px;
+    background-color: #FFFFFF0D;
+    
+}
+.block h5{
+    color: #ebebeb;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.block p{
+    color:white; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px ;
+}
+#blocks{
+    padding-top: 80px;
+}
+.blocks {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+#footer {
+    padding: 30px 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
